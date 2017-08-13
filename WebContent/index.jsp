@@ -11,6 +11,7 @@
  	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+<%--
 	<div class="row">
 		<div class="navbar navbar-inverse">
 			<div class="container-fluid">
@@ -21,6 +22,31 @@
 			</div>
 		</div>
 	</div>
+ --%>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">WEBAPDE MP2</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search Profile">
+					</div>
+					<a href="profile.html">
+						<button type="button" class="btn btn-default">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</button>
+					</a>
+				</form>
+       				<ul class="nav navbar-nav">
+					<li role="presentation" class="active"><a href="index.html">Home</a></li>
+					<li role="presentation"><a href="photos.html">Photos</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
 	<div class="row">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-3">
